@@ -170,7 +170,7 @@ ID (id) → use # */
 }
 .songItem img{
     width: 34px;
-    height: 54x;
+    height: 34px;
     object-fit: cover;
     margin:0 10px;
     border-radius: 34px;
@@ -182,11 +182,11 @@ ID (id) → use # */
 
 @media (max-width: 768px) {
   .container {
-    width: 95%;
-    flex-direction: column;
-    height: auto;
-    min-height: auto;
-    margin: 10px auto;
+      width: 95%;
+      flex-direction: column;
+      height: auto;
+      min-height: calc(100vh - 170px);
+      margin: 10px auto 100px auto;
   }
 
   .songList {
@@ -194,14 +194,15 @@ ID (id) → use # */
   }
 
   .songItem {
-    margin-left: 10px;
-    margin-right: 10px;
-    height: auto;
-    padding: 8px 0;
+      margin: 10px;
+      height: auto;
+      min-height: 45px;
+      padding: 6px 5px;
   }
 
   .songItem img {
-    width: 28px;
+      width: 30px;
+      height: 30px;
   }
 
   .songName {
