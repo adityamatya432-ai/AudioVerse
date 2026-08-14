@@ -181,18 +181,22 @@ ID (id) → use # */
 }
 
 @media (max-width: 768px) {
+
   .container {
       width: 95%;
       flex-direction: column;
       height: auto;
-      min-height: calc(100vh - 170px);
+      min-height: 0;
       margin: 10px auto 120px auto;
-      padding-bottom: 100px;
-      box-sizing: border-box;
+      padding-bottom: 120px;
   }
 
   .songList {
-    width: 100%;
+      width: 100%;
+  }
+
+  .songitemcontainer {
+      padding-bottom: 120px;
   }
 
   .songItem {
@@ -208,30 +212,30 @@ ID (id) → use # */
   }
 
   .songName {
-    font-size: 14px;
+      font-size: 14px;
   }
 
   .timestamp {
-    font-size: 13px;
+      font-size: 13px;
   }
 
   .bottom {
-    height: auto;
-    padding: 10px 0;
+      height: auto;
+      padding: 10px 0;
   }
 
   #MyProgressBar {
-    width: 85vw;
+      width: 85vw;
   }
 
   .songinfo {
-    position: static;
-    margin-top: 8px;
-    font-size: 13px;
+      position: static;
+      margin-top: 8px;
+      font-size: 13px;
   }
 
   nav ul li {
-    padding: 0 8px;
-    font-size: 14px;
+      padding: 0 8px;
+      font-size: 14px;
   }
 }
