@@ -91,10 +91,6 @@ nav ul li{
 .songlistplay i {
     cursor: pointer;
 }
-.container{
-  min-height: 75vh;    /* viewPort height 75% of height*/
-}
-
 /* In CSS:
 Class (class) → use .
 ID (id) → use # */
@@ -182,4 +178,57 @@ ID (id) → use # */
 
 #prev, #next {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+    margin: 10px auto;
+  }
+
+  .songList {
+    width: 100%;
+  }
+
+  .songItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    padding: 8px 0;
+  }
+
+  .songItem img {
+    width: 28px;
+  }
+
+  .songName {
+    font-size: 14px;
+  }
+
+  .timestamp {
+    font-size: 13px;
+  }
+
+  .bottom {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #MyProgressBar {
+    width: 85vw;
+  }
+
+  .songinfo {
+    position: static;
+    margin-top: 8px;
+    font-size: 13px;
+  }
+
+  nav ul li {
+    padding: 0 8px;
+    font-size: 14px;
+  }
 }
