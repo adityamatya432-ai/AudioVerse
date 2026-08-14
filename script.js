@@ -10,14 +10,14 @@ let gif = document.getElementById('gif');
 let currentTimeEl = document.getElementById('currentTime');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName:"The chainsmokers - closer",filePath:"songs/1.mp3",coverPath:"covers/1.png"},
+    {songName:"closer",filePath:"songs/1.mp3",coverPath:"covers/1.png"},
     {songName:"Saiyaara",filePath:"songs/2.mp3",coverPath:"covers/2.png"},
     {songName:"Tum Ho Toh",filePath:"songs/3.mp3",coverPath:"covers/3.png"},
-    {songName:"Inaam - Jasleen Royal",filePath:"songs/4.mp3",coverPath:"covers/4.png"},
+    {songName:"Inaam",filePath:"songs/4.mp3",coverPath:"covers/4.png"},
     {songName:"Sahiba",filePath:"songs/5.mp3",coverPath:"covers/5.png"},
     {songName:"SUBEME LA RADIO",filePath:"songs/6.mp3",coverPath:"covers/6.png"},
-    {songName:"Enrique Iglesias  Bailando",filePath:"songs/7.mp3",coverPath:"covers/7.png"},
-    {songName:"Y QUE FUE_ Don Miguelo",filePath:"songs/8.mp3",coverPath:"covers/8.png"},
+    {songName:"Bailando",filePath:"songs/7.mp3",coverPath:"covers/7.png"},
+    {songName:"Y QUE FUE",filePath:"songs/8.mp3",coverPath:"covers/8.png"},
 ]
 
 songItems.forEach((element,i)=>{
